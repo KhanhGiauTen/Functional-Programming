@@ -1,0 +1,30 @@
+Configuring yaml-0.11.11.2...
+Preprocessing library for yaml-0.11.11.2..
+Building library for yaml-0.11.11.2..
+[ 1 of 10] Compiling Data.Yaml.Internal
+
+src\Data\Yaml\Internal.hs:53:1: warning: [-Wunused-imports]
+    The import of `Data.Aeson.Internal' is redundant
+      except perhaps to import instances from `Data.Aeson.Internal'
+    To import instances alone, use: import Data.Aeson.Internal()
+   |
+53 | import Data.Aeson.Internal (JSONPath, JSONPathElement(..), formatError)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Data\Yaml\Internal.hs:53:1: warning: [-Wdeprecations]
+    Module `Data.Aeson.Internal' is deprecated:
+      "All contents of this module are exported from Data.Aeson.Types module. This module will be removed in the next major aeson version."
+   |
+53 | import Data.Aeson.Internal (JSONPath, JSONPathElement(..), formatError)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 2 of 10] Compiling Data.Yaml.Include
+[ 3 of 10] Compiling Data.Yaml.Builder
+[ 4 of 10] Compiling Data.Yaml
+[ 5 of 10] Compiling Data.Yaml.Config
+[ 6 of 10] Compiling Data.Yaml.Aeson
+[ 7 of 10] Compiling Data.Yaml.Parser
+[ 8 of 10] Compiling Data.Yaml.Pretty
+[ 9 of 10] Compiling Data.Yaml.TH
+[10 of 10] Compiling Paths_yaml
+Installing library in C:\sr\snapshots\375e5883\lib\x86_64-windows-ghc-9.6.4\yaml-0.11.11.2-6Ig6wbzH7Z4GTrAcmmWdgz
+Registering library for yaml-0.11.11.2..

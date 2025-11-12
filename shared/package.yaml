@@ -1,0 +1,56 @@
+# File này định nghĩa package "shared"
+name:                shared
+version:             0.1.0.0
+description:         Shared types for Arcane Duelists (Player, Enemy, Protocol)
+license:             BSD3
+author:              (Tên của bạn)
+maintainer:          (Email của bạn)
+category:            Game
+
+# Các thư viện mà code "shared" cần
+dependencies:
+  - base >= 4.7 && < 5
+  - aeson      # Cho ToJSON/FromJSON
+  - binary     # Để encode/decode network packets (TCP/UDP)
+  - containers # Cho Data.Map
+  - bytestring
+  - text
+  - mtl
+  - stm
+  - persistent
+  - persistent-template
+  - persistent-postgresql
+
+# Phần thư viện (quan trọng nhất)
+library:
+  source-dirs: src
+  
+  # Liệt kê TẤT CẢ các module bạn muốn server và client có thể import
+  # Danh sách này khớp với các file trong thư mục 'src/' của bạn
+  exposed-modules:
+    # --- Từ thư mục Network/ ---
+    - Network.Protocol
+    
+    # --- Từ thư mục Types/ ---
+    - Types.Common
+    - Types.Enemy
+    - Types.Item
+    - Types.Player
+    - Types.Account
+    - Types.DBTypes
+    - Types.GameTypes
+    - Types.Models
+    - Types.NetworkTypes
+    - Types.Config
+
+# --- CẢNH BÁO QUAN TRỌNG ---
+#
+# Trong ảnh 'image_32a487.png', bạn có các file bị trùng lặp:
+# 1. 'src/Protocol.hs' (Trùng với 'src/Network/Protocol.hs')
+# 2. 'src/Common.hs'    (Trùng với 'src/Types/Common.hs')
+#
+# Bạn PHẢI XÓA hai file bị trùng lặp ở thư mục 'src/' (src/Protocol.hs và src/Common.hs).
+# Nếu không, GHC sẽ báo lỗi "Ambiguous module name" (Tên module không rõ ràng)
+# và build vẫn sẽ thất bại.
+#
+# File package.yaml này được cấu hình để chỉ sử dụng các file trong 'Network/' và 'Types/'.

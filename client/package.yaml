@@ -1,0 +1,48 @@
+# File này định nghĩa package "client"
+name:                client
+version:             0.1.0.0
+description:         Client for Arcane Duelists
+license:             BSD3
+author:              (Tên của bạn)
+maintainer:          (Email của bạn)
+category:            Game
+
+# Các thư viện mà code "client" cần
+dependencies:
+  - base >= 4.7 && < 5
+  - shared
+  - network
+  - websockets
+  - stm
+  - containers
+  - aeson
+  - binary
+  - bytestring
+  - mtl
+  - text
+  - sdl2
+  - sdl2-image
+  - sdl2-ttf
+  - linear
+  - directory
+  - filepath
+  - random
+
+# Phần ứng dụng chạy được (entry point)
+executables:
+  arcane-client: # Tên file thực thi
+    main:                Main.hs
+    source-dirs:         src # Mã nguồn nằm trong client/src/
+    other-modules:
+      - Core.Animation
+      - Core.Input
+      - Core.PlayerAssets
+      - Core.Renderer
+      - Network.ClientNet
+      - Renderer.Resources
+      - Systems.MapLoader
+      - UI.Menu
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N

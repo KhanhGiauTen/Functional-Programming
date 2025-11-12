@@ -1,0 +1,89 @@
+name:                server
+version:             0.1.0.0
+description:         The game server for Arcane Duelists (Dungeon Crawler)
+homepage:            "https://github.com/Sura3607/MMO_Dungeon_Crawler#readme"
+github:              "Sura3607/MMO_Dungeon_Crawler"
+license:             BSD3
+author:              (Tên của bạn)
+maintainer:          (Email của bạn)
+copyright:           2025 (Tên của bạn)
+category:            Game
+
+# Các thư viện chung mà cả library và executable của server đều dùng
+dependencies:
+  - base >= 4.7 && < 5
+  - bytestring 
+  - network    
+  - binary     
+  - containers
+  - array      
+  - shared     
+  - JuicyPixels
+  - aeson
+  - filepath
+  - yaml
+  - random
+  - stm        
+  - persistent 
+  - persistent-postgresql 
+  - persistent-template
+  - esqueleto  
+  - text
+  - mtl
+  - websockets # CẦN CÓ Ở ĐÂY VÀ EXECUTABLES
+
+# Phần thư viện của server (chứa logic game)
+library:
+  source-dirs: src
+  # ĐÃ FIX: Liệt kê tất cả các module Systems/DataHandlers
+  exposed-modules:
+    - Core.Types
+    - Core.Config
+    - Core.Logger
+    - Network.TCPServer
+    - Network.UDPServer
+    - Network.PacketParser
+    - Network.SessionManager
+    - Systems.EntitySystem
+    - Systems.CombatSystem
+    - Systems.DungeonSystem
+    - Systems.ItemSystem
+    - Systems.SkillSystem
+    - Systems.SyncSystem
+    - Systems.AISystem
+    - Systems.PartySystem
+    - Systems.EffectSystem
+    - Systems.PhysicsSystem # <--- ĐÃ EXPOSE: FIX LỖI HIDDEN MODULE
+    - Data.Database
+    - Data.Models
+    - Data.Queries.PlayerQuery
+    - Data.Queries.ItemQuery
+    - Data.Queries.MatchQuery
+    - Utils.Random
+    - Utils.Math
+    - Utils.Timer
+    - Handlers.LoginHandler
+    - Handlers.RoomHandler
+    - Handlers.CombatHandler
+    - Handlers.SyncHandler
+    
+# Phần ứng dụng chạy được (entry point)
+executables:
+  arcane-server: # Tên file thực thi
+    main:                Main.hs
+    source-dirs:         app
+    other-modules:
+      - ServerApp # Đã khai báo
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - server     # Phụ thuộc vào library 'server' (chứa Systems)
+      - shared
+      - websockets # <--- ĐÃ THÊM: Sửa lỗi "Could not load module 'Network.WebSockets'"
+      - containers
+      - stm
+      - aeson
+      - bytestring
+      - filepath

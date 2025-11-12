@@ -1,0 +1,14 @@
+# Customized SDL2 pkg-config file without stack protector dependencies
+prefix=/c/Users/Acer/AppData/Local/Programs/stack/x86_64-windows/msys2-20240727/ucrt64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: sdl2
+Description: Simple DirectMedia Layer adjusted for Stack build
+Version: 2.30.5
+Requires.private:
+Conflicts:
+Libs: -LC:/Users/Acer/AppData/Local/Programs/stack/x86_64-windows/msys2-20240727/ucrt64/lib -lmingw32 -mwindows -lSDL2
+Libs.private: -lmingw32 -mwindows -lSDL2 -lm -lkernel32 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lversion -luuid -ladvapi32 -lsetupapi -lshell32 -ldinput8
+Cflags: -IC:/Users/Acer/AppData/Local/Programs/stack/x86_64-windows/msys2-20240727/ucrt64/include -IC:/Users/Acer/AppData/Local/Programs/stack/x86_64-windows/msys2-20240727/ucrt64/include/SDL2 -DSDL_MAIN_HANDLED

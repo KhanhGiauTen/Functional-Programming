@@ -1,0 +1,90 @@
+Configuring lens-5.2.3...
+Preprocessing library for lens-5.2.3..
+Building library for lens-5.2.3..
+[ 1 of 85] Compiling Control.Lens.Internal.CTypes
+[ 2 of 85] Compiling Control.Lens.Internal.Doctest
+[ 3 of 85] Compiling Control.Lens.Internal.Instances
+[ 4 of 85] Compiling Control.Lens.Internal.Iso
+[ 5 of 85] Compiling Control.Lens.Internal.List
+[ 6 of 85] Compiling Control.Lens.Internal.Prelude
+[ 7 of 85] Compiling Control.Lens.Internal.Level
+[ 8 of 85] Compiling Control.Lens.Internal.Indexed
+[ 9 of 85] Compiling Control.Lens.Internal.Getter
+[10 of 85] Compiling Control.Lens.Internal.Fold
+[11 of 85] Compiling Control.Lens.Internal.Context
+[12 of 85] Compiling Control.Lens.Internal.Bazaar
+[13 of 85] Compiling Control.Lens.Internal.Magma
+[14 of 85] Compiling Control.Lens.Internal.Prism
+[15 of 85] Compiling Control.Lens.Internal.Profunctor
+[16 of 85] Compiling Control.Lens.Internal.Review
+[17 of 85] Compiling Control.Lens.Internal.Setter
+[18 of 85] Compiling Control.Lens.Internal.Zoom
+[19 of 85] Compiling Control.Lens.Internal
+[20 of 85] Compiling Control.Lens.Type
+[21 of 85] Compiling Control.Lens.Setter
+[22 of 85] Compiling Control.Lens.Lens
+[23 of 85] Compiling Control.Lens.Tuple
+[24 of 85] Compiling Control.Lens.Getter
+[25 of 85] Compiling Control.Lens.Review
+[26 of 85] Compiling Control.Lens.Prism
+[27 of 85] Compiling Control.Lens.Fold
+[28 of 85] Compiling Control.Lens.Traversal
+[29 of 85] Compiling Control.Lens.Level
+[30 of 85] Compiling Control.Lens.Reified
+[31 of 85] Compiling Control.Lens.Internal.Exception
+[32 of 85] Compiling Control.Lens.Indexed
+[33 of 85] Compiling Control.Lens.Internal.ByteString
+[34 of 85] Compiling Control.Lens.Equality
+[35 of 85] Compiling Control.Lens.Iso
+[36 of 85] Compiling Control.Lens.Empty
+[37 of 85] Compiling Control.Lens.Cons
+[38 of 85] Compiling Control.Lens.Internal.Deque
+[39 of 85] Compiling Control.Lens.Wrapped
+[40 of 85] Compiling Control.Lens.Internal.TH
+[41 of 85] Compiling Control.Lens.Zoom
+[42 of 85] Compiling Data.Data.Lens
+[43 of 85] Compiling Control.Lens.Plated
+[44 of 85] Compiling Data.HashSet.Lens
+[45 of 85] Compiling Data.List.Lens
+[46 of 85] Compiling Data.Map.Lens
+[47 of 85] Compiling Data.Set.Lens
+[48 of 85] Compiling Data.Text.Lazy.Lens
+[49 of 85] Compiling Data.Text.Strict.Lens
+[50 of 85] Compiling Data.Text.Lens
+[51 of 85] Compiling Data.Vector.Generic.Lens
+[52 of 85] Compiling Control.Lens.Each
+[53 of 85] Compiling Control.Lens.At
+[54 of 85] Compiling Language.Haskell.TH.Lens
+[55 of 85] Compiling Control.Lens.Internal.PrismTH
+[56 of 85] Compiling Control.Lens.Internal.FieldTH
+[57 of 85] Compiling Control.Lens.TH
+[58 of 85] Compiling Control.Lens
+[59 of 85] Compiling GHC.Generics.Lens
+[60 of 85] Compiling Data.Vector.Lens
+[61 of 85] Compiling Data.Typeable.Lens
+[62 of 85] Compiling Data.Tree.Lens
+[63 of 85] Compiling Data.Sequence.Lens
+[64 of 85] Compiling Data.IntSet.Lens
+[65 of 85] Compiling Data.Complex.Lens
+[66 of 85] Compiling Data.ByteString.Strict.Lens
+[67 of 85] Compiling Data.ByteString.Lazy.Lens
+[68 of 85] Compiling Data.ByteString.Lens
+[69 of 85] Compiling Data.Bits.Lens
+[70 of 85] Compiling Data.Array.Lens
+[71 of 85] Compiling Control.Seq.Lens
+[72 of 85] Compiling Control.Parallel.Strategies.Lens
+[73 of 85] Compiling Control.Monad.Error.Lens
+[74 of 85] Compiling Control.Lens.Unsound
+[75 of 85] Compiling Control.Lens.Profunctor
+[76 of 85] Compiling Control.Lens.Operators
+[77 of 85] Compiling Control.Lens.Extras
+[78 of 85] Compiling Control.Lens.Combinators
+[79 of 85] Compiling Control.Exception.Lens
+[80 of 85] Compiling Data.Dynamic.Lens
+[81 of 85] Compiling Numeric.Lens
+[82 of 85] Compiling Numeric.Natural.Lens
+[83 of 85] Compiling System.Exit.Lens
+[84 of 85] Compiling System.FilePath.Lens
+[85 of 85] Compiling System.IO.Error.Lens
+Installing library in C:\sr\snapshots\375e5883\lib\x86_64-windows-ghc-9.6.4\lens-5.2.3-78GoL6uBhZz4NA4JpxioO0
+Registering library for lens-5.2.3..

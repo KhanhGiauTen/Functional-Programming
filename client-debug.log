@@ -1,0 +1,2 @@
+[Client] Fatal error: SDLCallFailed {sdlExceptionCaller = "SDL.Font.blended", sdlFunction = "TTF_RenderUTF8_Blended", sdlExceptionError = "Text has zero width"}
+[Client] Fatal error: SDLCallFailed {sdlExceptionCaller = "SDL.Font.blended", sdlFunction = "TTF_RenderUTF8_Blended", sdlExceptionError = "Text has zero width"}

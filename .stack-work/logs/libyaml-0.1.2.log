@@ -1,0 +1,7 @@
+Configuring libyaml-0.1.2...
+Preprocessing library for libyaml-0.1.2..
+Building library for libyaml-0.1.2..
+[1 of 2] Compiling Paths_libyaml
+[2 of 2] Compiling Text.Libyaml
+Installing library in C:\sr\snapshots\375e5883\lib\x86_64-windows-ghc-9.6.4\libyaml-0.1.2-5Q3zcNLCJMc2fPJIHNbWca
+Registering library for libyaml-0.1.2..

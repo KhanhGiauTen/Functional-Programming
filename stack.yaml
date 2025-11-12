@@ -1,0 +1,36 @@
+# File này BẮT BUỘC ở thư mục gốc
+# Nó định nghĩa dự án ĐA GÓI
+
+# 1. Resolver (Phiên bản GHC và thư viện)
+resolver: lts-22.7
+
+# 2. Liệt kê các "gói" (packages) con
+# Stack sẽ tìm package.yaml trong mỗi thư mục này
+packages:
+  - server
+  - client
+  - shared
+  - sdl2-image-2.1.0.0
+
+local-bin-path: .stack-work/bin
+
+build:
+  copy-bins: false
+  executable-stripping: false
+  library-stripping: false
+
+# 3. (Tùy chọn)
+# allow-newer: true
+
+# 4. Các dependency bổ sung (extra-deps)
+#    Stack yêu cầu chúng ta thêm dòng bên dưới để fix lỗi [S-4804]
+extra-deps:
+  - gloss-juicy-0.2.3@sha256:0c3bca95237cbf91f8b3b1936a0661f1e0457acd80502276d54d6c5210f88b25,1618
+
+extra-lib-dirs:
+  - vendor/libssp
+
+ghc-options:
+  sdl2: -optl-lssp
+
+apply-ghc-options: everything

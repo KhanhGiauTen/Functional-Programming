@@ -1,0 +1,68 @@
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\.stack-work\dist\ab060f89\build\autogen\Paths_server.hs:
+  hash: 4a15da49821e3ef28dd940b3a9f4b9a9fb4c92eeeba61c4cba54deda39165424
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\.stack-work\dist\ab060f89\build\autogen\cabal_macros.h:
+  hash: b8aecddb06139654f034a3aed987cc0c91db2eccfb067492bdb2f891c4a31ab2
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\package.yaml:
+  hash: b0427fba1eb2fb2d74ccbb4ebc76e558c2a4c00824402a5bf2ffee43ecb033a4
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\server.cabal:
+  hash: 9dc5dff37235f19103ef9074de754866ad35b4dd5b253cdad438ad0d2686af24
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Core\Config.hs:
+  hash: 47c65bd2abf0b424797540b6613e9470cf65e261ad8a69a2ba00aa4d6da53a91
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Core\Logger.hs:
+  hash: 1ebe3b0a7bc1a610681e66a21d34af7bc04aa51d71de753ec4d357908767883d
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Core\Types.hs:
+  hash: 58cf1b1a98a8bf4ef68234af06ae03d7f8a4b02106bcd357e0ee591b9f222bb8
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Data\Database.hs:
+  hash: 206963bae28c7eb6407c467552755b3fdba5872558e1322ffadc74ab2c5b33df
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Data\Models.hs:
+  hash: 8da45782a7b158cdf734394ffbe1388e773adc95cb0e2b54b6898872e372cd2d
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Data\Queries\ItemQuery.hs:
+  hash: 28b3381b79a428f4cefd060666dde4f0df14e932e4a001755b56bde9ffb9bcfd
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Data\Queries\MatchQuery.hs:
+  hash: baccf67971b1cdc5b65898ee719db14519cb9148d78fce60fcf5cba9babbc1f1
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Data\Queries\PlayerQuery.hs:
+  hash: db1bb39d05554509426840759199f4805b05b99cef14f599b65f7bd2e520af20
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Handlers\CombatHandler.hs:
+  hash: bbd555b2166ac7a55f7582202e64cd99b14160d735e9db0d8ea57f1fbe730abc
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Handlers\LoginHandler.hs:
+  hash: 35c5369626a08eab42880092dd3da642b253a0cd59afcd573f2473d5fcd966ee
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Handlers\RoomHandler.hs:
+  hash: a11aa92a639e6c7600c309104c69cc34cd93aa21aadba8f6f9c42bacd4bcb04b
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Handlers\SyncHandler.hs:
+  hash: 4d84bf1385cc929117b9e2032c5b8c238df0880741c2c3f44f527ca0e08db521
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Network\PacketParser.hs:
+  hash: 494a81b08805e7fc4579ecfa7c6aa859c5c16cf43bd338fdeec55f86b651bfcb
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Network\SessionManager.hs:
+  hash: 20657a151eb608acfc761df7a8eb7d5912f767ac8f86edfcdecd16fe4bee9a55
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Network\TCPServer.hs:
+  hash: e4d86909653914943cb7fdf1a8eac8662c3aebec0d8fb8253dc86a8e40c27272
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Network\UDPServer.hs:
+  hash: 8bfb5a77e962ae2517d271930323bff0a80815586e09275f0fc80d1cfe4c8315
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\AISystem.hs:
+  hash: 6b4756aeb344004151cb32ae36f82e329b57676d13354ada5a4aa460d0ea0294
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\CombatSystem.hs:
+  hash: 2aae07481027d15b55c2dffe61e2429667a21eff51deeaba6f963036c56f0859
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\DungeonSystem.hs:
+  hash: d0f98e77b126a0b1329ffbf36db18e876d06e8894b8f97cbdea608f67f7c52a7
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\EffectSystem.hs:
+  hash: cdc2c9d1aa3c33f3e82c0c22f29e53d1c736913e8ab2b306acd14fd0032aa8e6
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\EntitySystem.hs:
+  hash: 1e51500ff19e5ed57b6f9dc2eecc14739a8e03f531df12720b0f723847c8e7c9
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\ItemSystem.hs:
+  hash: 871af180957606f3e3358a0271f84bf8cd8653cc7c36506fef289f4111f92ff2
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\PartySystem.hs:
+  hash: a0be8c6a56e4fcf6711aaef36e79a8b604283ce8185c3394ba8193bd6e3ba00e
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\PhysicsSystem.hs:
+  hash: 781972729e842085589734f64f79d5af4f43031ce9271b55847230450dea3d94
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\SkillSystem.hs:
+  hash: 7e218720fb615b4d564b727b6b3f2b03506b253eba5f8623e7dda0e08a7586fe
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Systems\SyncSystem.hs:
+  hash: 5742af36e18029ad9bc8be1db6d16f9e5666b8c33d73089a4e929c1857fe10c7
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Utils\Math.hs:
+  hash: ccbae0edf4c927047b2cd784b5ad08844c7527e2f2668f9e09b75c8ed320446f
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Utils\Random.hs:
+  hash: 2b1d20605e236170fc3a4ed0ebe3166a0ca638150e19a7f8e05448855213f62b
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\server\src\Utils\Timer.hs:
+  hash: db4df22f659625b3a63e1dd0716bbe49a505194029025eefa9fd11c78b842339
+D:\ghcup\ghc\9.6.4\lib\x86_64-windows-ghc-9.6.4\rts-1.0.2\include\ghcversion.h:
+  hash: cbc0ab805e5b827180e3116cecd3f6665988df7f45a6b64f0e09ea8c25c438ff

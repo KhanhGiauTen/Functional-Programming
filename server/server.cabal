@@ -1,0 +1,110 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.38.1.
+--
+-- see: https://github.com/sol/hpack
+
+name:           server
+version:        0.1.0.0
+description:    The game server for Arcane Duelists (Dungeon Crawler)
+category:       Game
+homepage:       https://github.com/Sura3607/MMO_Dungeon_Crawler#readme
+bug-reports:    https://github.com/Sura3607/MMO_Dungeon_Crawler/issues
+author:         (Tên của bạn)
+maintainer:     (Email của bạn)
+copyright:      2025 (Tên của bạn)
+license:        BSD3
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/Sura3607/MMO_Dungeon_Crawler
+
+library
+  exposed-modules:
+      Core.Types
+      Core.Config
+      Core.Logger
+      Network.TCPServer
+      Network.UDPServer
+      Network.PacketParser
+      Network.SessionManager
+      Systems.EntitySystem
+      Systems.CombatSystem
+      Systems.DungeonSystem
+      Systems.ItemSystem
+      Systems.SkillSystem
+      Systems.SyncSystem
+      Systems.AISystem
+      Systems.PartySystem
+      Systems.EffectSystem
+      Systems.PhysicsSystem
+      Data.Database
+      Data.Models
+      Data.Queries.PlayerQuery
+      Data.Queries.ItemQuery
+      Data.Queries.MatchQuery
+      Utils.Random
+      Utils.Math
+      Utils.Timer
+      Handlers.LoginHandler
+      Handlers.RoomHandler
+      Handlers.CombatHandler
+      Handlers.SyncHandler
+  other-modules:
+      Paths_server
+  hs-source-dirs:
+      src
+  build-depends:
+      JuicyPixels
+    , aeson
+    , array
+    , base >=4.7 && <5
+    , binary
+    , bytestring
+    , containers
+    , esqueleto
+    , filepath
+    , mtl
+    , network
+    , persistent
+    , persistent-postgresql
+    , persistent-template
+    , random
+    , shared
+    , stm
+    , text
+    , websockets
+    , yaml
+  default-language: Haskell2010
+
+executable arcane-server
+  main-is: Main.hs
+  other-modules:
+      ServerApp
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      JuicyPixels
+    , aeson
+    , array
+    , base >=4.7 && <5
+    , binary
+    , bytestring
+    , containers
+    , esqueleto
+    , filepath
+    , mtl
+    , network
+    , persistent
+    , persistent-postgresql
+    , persistent-template
+    , random
+    , server
+    , shared
+    , stm
+    , text
+    , websockets
+    , yaml
+  default-language: Haskell2010

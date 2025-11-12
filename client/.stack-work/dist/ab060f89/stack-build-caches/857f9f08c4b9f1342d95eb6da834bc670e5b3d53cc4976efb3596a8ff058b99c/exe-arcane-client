@@ -1,0 +1,20 @@
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\client.cabal:
+  hash: d51d951d72dc25f75497b0fd8997289b56354892e5c0cd6e301470422f088688
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\package.yaml:
+  hash: 1a47c9ac970547450dcf16a486fccb51815d38c2ea8583ec0efd554fbf3e817e
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\src\Core\Animation.hs:
+  hash: 0c2b9fb7a94f6df79461eb48a09fbc767fd2a4bffc6961d4d04691c98dec1148
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\src\Core\Input.hs:
+  hash: e4eef8d3c751873abd0e686bd95fdbd91499d3ad6281ac398aef66e91ff772dd
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\src\Core\PlayerAssets.hs:
+  hash: 0d1ff63a148285ed0b56ee120487bc9a6f594b2432efeec0c0af6c302738ad24
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\src\Core\Renderer.hs:
+  hash: b88ffd87f83f98895b6be1c53f84fcfce0ed93dc1b6f50e9ce5f611ff9ba2082
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\src\Main.hs:
+  hash: edf5a2be923c7aea167e597e2c6d1070b4b509d958872cb917c1dc5cb550b611
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\src\Network\ClientNet.hs:
+  hash: 55fdd86cb937bd52c74b554e7247679139ffdd66863564531fc7ed62f09a0ab6
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\src\Renderer\Resources.hs:
+  hash: 180532166255bb0010c8bceb25a01a1226ba36fb9efba693950cabe6bebfc233
+C:\Users\Acer\source\repos\homework\Haskell\Final\Gamedev\client\src\Systems\MapLoader.hs:
+  hash: 12e2706f4127b2c052fdff3ff21196063f79771736d4abc709e6dadef02088e0
