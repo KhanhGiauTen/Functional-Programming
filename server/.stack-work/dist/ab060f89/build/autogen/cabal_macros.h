@@ -80,16 +80,6 @@
   (major1) == 0 && (major2) <  6 || \
   (major1) == 0 && (major2) == 6 && (minor) <= 7)
 #endif /* MIN_VERSION_containers */
-/* package esqueleto-3.5.11.1 */
-#ifndef VERSION_esqueleto
-#define VERSION_esqueleto "3.5.11.1"
-#endif /* VERSION_esqueleto */
-#ifndef MIN_VERSION_esqueleto
-#define MIN_VERSION_esqueleto(major1,major2,minor) (\
-  (major1) <  3 || \
-  (major1) == 3 && (major2) <  5 || \
-  (major1) == 3 && (major2) == 5 && (minor) <= 11)
-#endif /* MIN_VERSION_esqueleto */
 /* package filepath-1.4.200.1 */
 #ifndef VERSION_filepath
 #define VERSION_filepath "1.4.200.1"
@@ -120,36 +110,16 @@
   (major1) == 3 && (major2) <  1 || \
   (major1) == 3 && (major2) == 1 && (minor) <= 4)
 #endif /* MIN_VERSION_network */
-/* package persistent-2.14.6.0 */
-#ifndef VERSION_persistent
-#define VERSION_persistent "2.14.6.0"
-#endif /* VERSION_persistent */
-#ifndef MIN_VERSION_persistent
-#define MIN_VERSION_persistent(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  14 || \
-  (major1) == 2 && (major2) == 14 && (minor) <= 6)
-#endif /* MIN_VERSION_persistent */
-/* package persistent-postgresql-2.13.6.1 */
-#ifndef VERSION_persistent_postgresql
-#define VERSION_persistent_postgresql "2.13.6.1"
-#endif /* VERSION_persistent_postgresql */
-#ifndef MIN_VERSION_persistent_postgresql
-#define MIN_VERSION_persistent_postgresql(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  13 || \
-  (major1) == 2 && (major2) == 13 && (minor) <= 6)
-#endif /* MIN_VERSION_persistent_postgresql */
-/* package persistent-template-2.12.0.0 */
-#ifndef VERSION_persistent_template
-#define VERSION_persistent_template "2.12.0.0"
-#endif /* VERSION_persistent_template */
-#ifndef MIN_VERSION_persistent_template
-#define MIN_VERSION_persistent_template(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  12 || \
-  (major1) == 2 && (major2) == 12 && (minor) <= 0)
-#endif /* MIN_VERSION_persistent_template */
+/* package parallel-3.2.2.0 */
+#ifndef VERSION_parallel
+#define VERSION_parallel "3.2.2.0"
+#endif /* VERSION_parallel */
+#ifndef MIN_VERSION_parallel
+#define MIN_VERSION_parallel(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  2 || \
+  (major1) == 3 && (major2) == 2 && (minor) <= 2)
+#endif /* MIN_VERSION_parallel */
 /* package random-1.2.1.1 */
 #ifndef VERSION_random
 #define VERSION_random "1.2.1.1"
@@ -293,10 +263,10 @@
 #endif /* MIN_TOOL_VERSION_runghc */
 
 #ifndef CURRENT_PACKAGE_KEY
-#define CURRENT_PACKAGE_KEY "server-0.1.0.0-1s8g8nmtcmoLJiRBl2NN03"
+#define CURRENT_PACKAGE_KEY "server-0.1.0.0-7AVu9jDeTLv3DeryufsU1A"
 #endif /* CURRENT_packageKey */
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "server-0.1.0.0-1s8g8nmtcmoLJiRBl2NN03"
+#define CURRENT_COMPONENT_ID "server-0.1.0.0-7AVu9jDeTLv3DeryufsU1A"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

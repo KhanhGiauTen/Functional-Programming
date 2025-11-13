@@ -273,7 +273,7 @@
 #endif /* MIN_TOOL_VERSION_runghc */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "client-0.1.0.0-6bzWqgZrLhSAEOJoV45XtZ-arcane-client"
+#define CURRENT_COMPONENT_ID "client-0.1.0.0-D2DROwGrexvDoq5aePlbqb-arcane-client"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

@@ -24,26 +24,16 @@ dependencies:
   - yaml
   - random
   - stm        
-  - persistent 
-  - persistent-postgresql 
-  - persistent-template
-  - esqueleto  
   - text
   - mtl
   - websockets # CẦN CÓ Ở ĐÂY VÀ EXECUTABLES
+  - parallel
 
 # Phần thư viện của server (chứa logic game)
 library:
   source-dirs: src
   # ĐÃ FIX: Liệt kê tất cả các module Systems/DataHandlers
   exposed-modules:
-    - Core.Types
-    - Core.Config
-    - Core.Logger
-    - Network.TCPServer
-    - Network.UDPServer
-    - Network.PacketParser
-    - Network.SessionManager
     - Systems.EntitySystem
     - Systems.CombatSystem
     - Systems.DungeonSystem
@@ -54,18 +44,6 @@ library:
     - Systems.PartySystem
     - Systems.EffectSystem
     - Systems.PhysicsSystem # <--- ĐÃ EXPOSE: FIX LỖI HIDDEN MODULE
-    - Data.Database
-    - Data.Models
-    - Data.Queries.PlayerQuery
-    - Data.Queries.ItemQuery
-    - Data.Queries.MatchQuery
-    - Utils.Random
-    - Utils.Math
-    - Utils.Timer
-    - Handlers.LoginHandler
-    - Handlers.RoomHandler
-    - Handlers.CombatHandler
-    - Handlers.SyncHandler
     
 # Phần ứng dụng chạy được (entry point)
 executables:

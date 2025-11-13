@@ -1,4 +1,5 @@
 {-# LANGUAGE DeriveGeneric #-}
+{-# LANGUAGE DeriveAnyClass #-}
 {-# LANGUAGE OverloadedStrings #-}
 
 -- SỬA LỖI: Thêm 'isZeroVec' vào danh sách export
@@ -12,20 +13,21 @@ module Types.Common (
   ) where
 
 import Data.Aeson (FromJSON, ToJSON)
+import Control.DeepSeq (NFData)
 import GHC.Generics (Generic)
 
 type EntityID = Int
 
 -- Kiểu Vector 2D cơ bản
 data Vector2D = Vec Float Float
-  deriving (Show, Eq, Generic)
+  deriving (Show, Eq, Generic, NFData)
 
 instance FromJSON Vector2D
 instance ToJSON Vector2D
 
 -- Hướng nhìn của thực thể
 data Direction = DirUp | DirDown | DirLeft | DirRight
-  deriving (Show, Eq, Generic)
+  deriving (Show, Eq, Generic, NFData)
 
 instance FromJSON Direction
 instance ToJSON Direction
@@ -39,7 +41,7 @@ data EntityState
   | CastingUltimate
   | Hit
   | Dead
-  deriving (Show, Eq, Generic)
+  deriving (Show, Eq, Generic, NFData)
 
 instance FromJSON EntityState
 instance ToJSON EntityState

@@ -60,6 +60,16 @@
   (major1) == 0 && (major2) <  6 || \
   (major1) == 0 && (major2) == 6 && (minor) <= 7)
 #endif /* MIN_VERSION_containers */
+/* package deepseq-1.4.8.1 */
+#ifndef VERSION_deepseq
+#define VERSION_deepseq "1.4.8.1"
+#endif /* VERSION_deepseq */
+#ifndef MIN_VERSION_deepseq
+#define MIN_VERSION_deepseq(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  4 || \
+  (major1) == 1 && (major2) == 4 && (minor) <= 8)
+#endif /* MIN_VERSION_deepseq */
 /* package mtl-2.3.1 */
 #ifndef VERSION_mtl
 #define VERSION_mtl "2.3.1"
@@ -70,36 +80,6 @@
   (major1) == 2 && (major2) <  3 || \
   (major1) == 2 && (major2) == 3 && (minor) <= 1)
 #endif /* MIN_VERSION_mtl */
-/* package persistent-2.14.6.0 */
-#ifndef VERSION_persistent
-#define VERSION_persistent "2.14.6.0"
-#endif /* VERSION_persistent */
-#ifndef MIN_VERSION_persistent
-#define MIN_VERSION_persistent(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  14 || \
-  (major1) == 2 && (major2) == 14 && (minor) <= 6)
-#endif /* MIN_VERSION_persistent */
-/* package persistent-postgresql-2.13.6.1 */
-#ifndef VERSION_persistent_postgresql
-#define VERSION_persistent_postgresql "2.13.6.1"
-#endif /* VERSION_persistent_postgresql */
-#ifndef MIN_VERSION_persistent_postgresql
-#define MIN_VERSION_persistent_postgresql(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  13 || \
-  (major1) == 2 && (major2) == 13 && (minor) <= 6)
-#endif /* MIN_VERSION_persistent_postgresql */
-/* package persistent-template-2.12.0.0 */
-#ifndef VERSION_persistent_template
-#define VERSION_persistent_template "2.12.0.0"
-#endif /* VERSION_persistent_template */
-#ifndef MIN_VERSION_persistent_template
-#define MIN_VERSION_persistent_template(major1,major2,minor) (\
-  (major1) <  2 || \
-  (major1) == 2 && (major2) <  12 || \
-  (major1) == 2 && (major2) == 12 && (minor) <= 0)
-#endif /* MIN_VERSION_persistent_template */
 /* package stm-2.5.1.0 */
 #ifndef VERSION_stm
 #define VERSION_stm "2.5.1.0"
@@ -203,10 +183,10 @@
 #endif /* MIN_TOOL_VERSION_runghc */
 
 #ifndef CURRENT_PACKAGE_KEY
-#define CURRENT_PACKAGE_KEY "shared-0.1.0.0-EuBYsu865238sCzLGcKP0G"
+#define CURRENT_PACKAGE_KEY "shared-0.1.0.0-JLNWouHHIxLK04Fg4Ak4kx"
 #endif /* CURRENT_packageKey */
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "shared-0.1.0.0-EuBYsu865238sCzLGcKP0G"
+#define CURRENT_COMPONENT_ID "shared-0.1.0.0-JLNWouHHIxLK04Fg4Ak4kx"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

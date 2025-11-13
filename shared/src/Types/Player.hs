@@ -1,9 +1,11 @@
 {-# LANGUAGE DeriveGeneric #-}
+{-# LANGUAGE DeriveAnyClass #-}
 
 -- | Định nghĩa cấu trúc dữ liệu cho Người chơi
 module Types.Player where
 
 import GHC.Generics (Generic)
+import Control.DeepSeq (NFData)
 import Data.Aeson (ToJSON, FromJSON)
 import Types.Common (EntityID, Vector2D, EntityState, Direction)
 
@@ -11,7 +13,7 @@ import Types.Common (EntityID, Vector2D, EntityState, Direction)
 data PlayerMage
   = Mage1
   | Mage2
-  deriving (Show, Eq, Generic)
+  deriving (Show, Eq, Generic, NFData)
 
 instance ToJSON PlayerMage
 instance FromJSON PlayerMage
@@ -30,7 +32,7 @@ data Player = Player
   , ultimateCooldown  :: Float
   , playerAttackTimer :: Float
   , playerMage        :: PlayerMage
-  } deriving (Show, Eq, Generic)
+  } deriving (Show, Eq, Generic, NFData)
 
 instance ToJSON Player
 instance FromJSON Player

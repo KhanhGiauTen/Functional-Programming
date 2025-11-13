@@ -47,7 +47,7 @@ getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: 
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 bindir     = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\bin"
-libdir     = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\lib\\x86_64-windows-ghc-9.6.4\\shared-0.1.0.0-EuBYsu865238sCzLGcKP0G"
+libdir     = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\lib\\x86_64-windows-ghc-9.6.4\\shared-0.1.0.0-JLNWouHHIxLK04Fg4Ak4kx"
 dynlibdir  = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\lib\\x86_64-windows-ghc-9.6.4"
 datadir    = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\share\\x86_64-windows-ghc-9.6.4\\shared-0.1.0.0"
 libexecdir = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\libexec\\x86_64-windows-ghc-9.6.4\\shared-0.1.0.0"

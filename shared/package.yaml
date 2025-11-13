@@ -17,9 +17,7 @@ dependencies:
   - text
   - mtl
   - stm
-  - persistent
-  - persistent-template
-  - persistent-postgresql
+  - deepseq    # NFData instances for parallel rdeepseq
 
 # Phần thư viện (quan trọng nhất)
 library:
@@ -37,9 +35,7 @@ library:
     - Types.Item
     - Types.Player
     - Types.Account
-    - Types.DBTypes
     - Types.GameTypes
-    - Types.Models
     - Types.NetworkTypes
     - Types.Config
 

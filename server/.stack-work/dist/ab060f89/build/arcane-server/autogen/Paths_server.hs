@@ -47,7 +47,7 @@ getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: 
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 bindir     = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\bin"
-libdir     = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\lib\\x86_64-windows-ghc-9.6.4\\server-0.1.0.0-C4vjHPWorcYJKThWhOOnp6-arcane-server"
+libdir     = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\lib\\x86_64-windows-ghc-9.6.4\\server-0.1.0.0-6OofZtU8eGcBzbIvY56Tt9-arcane-server"
 dynlibdir  = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\lib\\x86_64-windows-ghc-9.6.4"
 datadir    = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\share\\x86_64-windows-ghc-9.6.4\\server-0.1.0.0"
 libexecdir = "C:\\Users\\Acer\\source\\repos\\homework\\Haskell\\Final\\Gamedev\\.stack-work\\install\\0fc416f4\\libexec\\x86_64-windows-ghc-9.6.4\\server-0.1.0.0"
