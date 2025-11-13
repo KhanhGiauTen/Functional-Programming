@@ -74,7 +74,6 @@ Gamedev/
 │       ├── Systems/
 │       │   └── MapLoader.hs        # Nạp tệp map JSON
 │       └── UI/
-│           ├── HUD.hs              # (Hiện chưa dùng)
 │           └── Menu.hs             # Menu/placeholder
 │
 ├── server/
